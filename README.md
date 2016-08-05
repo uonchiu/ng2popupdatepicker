@@ -5,7 +5,7 @@ A Angular 2 component that shows a field for a popup datapicker from ng-bootstra
 
 Tested on Angular RC4.
 
-Usage:  <popup-datepicker [popUpDate]="yourDate" [popUpIsVisible]="false" [popUpDateLabel]="'Label'" (onChangePopUpDate)="handleDateChange($event)"></popup-datepicker>
+Usage:  ```<popup-datepicker [popUpDate]="yourDate" [popUpIsVisible]="false" [popUpDateLabel]="'Label'" (onChangePopUpDate)="handleDateChange($event)"></popup-datepicker>```
 
 popUpIsVisible, popUpDateLabel, and onChangePopUpDate are optional.
 
